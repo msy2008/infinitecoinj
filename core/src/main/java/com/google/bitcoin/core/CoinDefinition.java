@@ -76,7 +76,7 @@ public class CoinDefinition {
 
 
 
-    public static final BigInteger DEFAULT_MIN_TX_FEE = BigInteger.valueOf(10000000000L);   // MIN_TX_FEE 100 coins   * 200
+    public static final BigInteger DEFAULT_MIN_TX_FEE = BigInteger.valueOf(100000000000L);   // MIN_TX_FEE 1000 coins
     public static final BigInteger DUST_LIMIT =        BigInteger.valueOf(100000000000L);      //   1000 coins
 
     public static final int PROTOCOL_VERSION = 69003;          //version.h PROTOCOL_VERSION
@@ -118,10 +118,22 @@ public class CoinDefinition {
     //net.cpp strDNSSeed
     static public String[] dnsSeeds = new String[] {
 
-            //"treasurequarry.com",
+            "treasurequarry.com",
             "exploretheblocks.com",
             "94.23.16.150",
-
+	    "amxpool.com",
+	    "ifcf2pool.com",
+	    "95.217.78.80",
+	    "47.252.81.22",
+	    "8.209.112.218",
+	    "108.31.232.45",
+	    "49.233.131.153",
+	    "106.54.169.204",
+	    "118.24.129.200",
+	    "124.156.132.21",
+	    "49.233.89.197",
+	    "129.211.58.27",
+	    
     };
     public static int minBroadcastConnections = 1;   //0 for default; we need more peers.
 
