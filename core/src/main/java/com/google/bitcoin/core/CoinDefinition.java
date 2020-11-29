@@ -30,13 +30,13 @@ public class CoinDefinition {
 
 
 
-    public static final String BLOCKEXPLORER_BASE_URL_PROD = "http://exploretheblocks.com:2750/";
+    public static final String BLOCKEXPLORER_BASE_URL_PROD = "https://chainz.cryptoid.info/ifc/";
     public static final String BLOCKEXPLORER_BASE_URL_TEST = "http://exploretheblocks.com:2750/";
-    public static final String BLOCKEXPLORER_ADDRESS_PATH = "address/";             //blockr.io path
-    public static final String BLOCKEXPLORER_TRANSACTION_PATH = "tx/";              //blockr.io path
-    public static final String BLOCKEXPLORER_BLOCK_PATH = "block/";                 //blockr.io path
+    public static final String BLOCKEXPLORER_ADDRESS_PATH = "address.dws?";             
+    public static final String BLOCKEXPLORER_TRANSACTION_PATH = "tx.dws?";              
+    public static final String BLOCKEXPLORER_BLOCK_PATH = "block.dws?";                 
 
-    public static final String DONATION_ADDRESS = "i3p7EagqTjB8F3w9N3D28KiHi2BtpFqMdR";  //HashEngineering donation IFC address
+    public static final String DONATION_ADDRESS = "iQD9VeiBqyzpudL8LF5EpNkhBmidd4JZaj";  //Infinitecoin Android Wallet Development Fund
 
     enum CoinHash {
         SHA256,
