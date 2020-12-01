@@ -158,6 +158,11 @@ public abstract class NetworkParameters implements Serializable {
      * The maximum money to be generated
      */
     public static final BigInteger MAX_MONEY = CoinDefinition.MAX_MONEY;
+    
+    /**
+     * Maximum amount per transfer
+     */
+    public static final BigInteger MAX_MONEY_OUT = CoinDefinition.MAX_MONEY_OUT;
 
     /** Alias for TestNet3Params.get(), use that instead. */
     @Deprecated
