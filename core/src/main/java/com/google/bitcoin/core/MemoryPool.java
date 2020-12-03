@@ -90,9 +90,9 @@ public class MemoryPool {
      * @param size Max number of transactions to track. The pool will fill up to this size then stop growing.
      */
     public MemoryPool(final int size) {
-        memoryPool = new LinkedHashMap<Sha256Hash, Entry>() {
+        memoryPool = new LinkedHashMap<Sha256Hash, com.google.bitcoin.core.MemoryPool.Entry>() {
             @Override
-            protected boolean removeEldestEntry(Map.Entry<Sha256Hash, Entry> entry) {
+            protected boolean removeEldestEntry(Map.Entry<Sha256Hash, com.google.bitcoin.core.MemoryPool.Entry> entry) {
                 // An arbitrary choice to stop the memory used by tracked transactions getting too huge in the event
                 // of some kind of DoS attack.
                 return size() > size;
