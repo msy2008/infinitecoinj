@@ -41,9 +41,9 @@ public class BuildCheckpoints {
         final BlockStore store = new MemoryBlockStore(params);
         final BlockChain chain = new BlockChain(params, store);
         final PeerGroup peerGroup = new PeerGroup(params, chain);
-        //peerGroup.addAddress(/*InetAddress.getLocalHost()*/InetAddress.getByName("94.23.16.150"));
-        //peerGroup.addAddress(/*InetAddress.getLocalHost()*/InetAddress.getByName("treasurequarry.com"));
-        peerGroup.addAddress(/*InetAddress.getLocalHost()*/InetAddress.getByName("exploretheblocks.com"));
+        peerGroup.addAddress(/*InetAddress.getLocalHost()*/InetAddress.getByName("amxpool.com"));
+        peerGroup.addAddress(/*InetAddress.getLocalHost()*/InetAddress.getByName("ifcf2pool.com"));
+        peerGroup.addAddress(/*InetAddress.getLocalHost()*/InetAddress.getByName("47.252.81.22"));
         //peerGroup.addAddress(InetAddress.getLocalHost());
 
         long now = new Date().getTime() / 1000;
